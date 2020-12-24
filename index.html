@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Naver Clone</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <script src="./index.js"></script>
   <header>
     <img src="/resource/mobile_111059602441.gif" alt="크리스마스 네이버" width="415" height="160">
-    <input type="text" placeholder="검색어를 입력해주세요.">
+    <input class="search-input" type="text" placeholder="검색어를 입력해주세요.">
     <button class="search"><span class="material-icons">search</span></button>
   </header>
   <section class="tap">
@@ -93,6 +94,14 @@
         </div>
       </section>
       <section class="todayArticle">
+        <div class="title">
+          <span class="title">오늘 읽을만한글</span>
+          <span class="sub-title">주제별로 다양한 글 모음</span>
+        </div>
+        <div class="article-list">
+          <span class="article-count">1,812 개의 글</span>
+          <a href=""><span class="material-icons">settings</span>관심주제 설정</a>
+        </div>
         <ul>
           <li class="item">
             <img src="./resource/tlqkf.jpg" alt="">
@@ -123,11 +132,32 @@
             <span class="date">더팩트 / 5일전</span>
           </li>
         </ul>
-        
-        
       </section>
     </section>
-    <section class="side"></section>
+    <section class="side">
+      <div class="login">
+        <p class="discription">네이버를 더 안전하고 편리하게 이용하세요</p>
+        <button class="login">네이버 로그인</button>
+        <span><a href="">아이디</a></span>
+        <span><a href="">비밀번호찾기</a></span>
+        <span><a href="">회원가입</a></span>
+      </div>
+      <div class="exchange-rate">
+        <div class="display">
+          <span class="exchange-rate">환율</span>
+          <span class="usd">USD</span>
+          <span class="rate">1,103.50</span>
+        </div>
+        <div class="nav-btn">
+          <button class="pre"><span class="material-icons">keyboard_arrow_left</span></button>
+          <button class="next"><span class="material-icons">keyboard_arrow_right</span></button>
+        </div>
+      </div>
+      <div class="advertise">
+        <img src="./resource/tlqkf.jpg" alt="" width="350" height="200">
+      </div>
+      <iframe src="https://castbox.shopping.naver.com/shoppingboxnew/main.nhn" frameborder="0" scrolling="no" width="350" height="1539"></iframe>
+    </section>
   </section>
 
 </body>
