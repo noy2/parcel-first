@@ -1,0 +1,36 @@
+:root {
+  /* COLOR */
+  --main-color:#19ce60;
+  --main-dark-color:#15c654;
+  --white-color:#fff;
+  --black-color:#000;
+  --grey-color:#808080;
+  --secondary-color:#f7f9fa;
+  --secondary-dark-color:#dae1e6;
+
+  /* SIZE */
+
+  /* FONT SIZE */
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.search-input {
+  display: flex;
+  border: 0.5px solid #19ce60;
+  align-items: center;
+  margin-top: 48px;
+  margin-bottom: 56px;
+}
+
+.search {
+  border: 0.5px solid #19ce60;
+  background-color: #19ce60;
+  color: #fff;
+  margin-top: 48px;
+  margin-bottom: 56px;
+  padding: 16px;
+}
