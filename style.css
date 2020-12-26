@@ -15,22 +15,43 @@
 
 header {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+
 }
 
-.search-input {
+body .main {
   display: flex;
-  border: 0.5px solid #19ce60;
-  align-items: center;
-  margin-top: 48px;
-  margin-bottom: 56px;
 }
 
-.search {
-  border: 0.5px solid #19ce60;
+ul {
+  list-style: none;
+}
+
+header .search-box {
+  display: flex;
+  align-items: center;
+  height: 160px;
+}
+
+header .search-input {
+  display: flex;
+  border: 2px solid #19ce60;
+  align-items: center;
+  height: 53px;
+  width: 512px;
+}
+
+header .search-button {
+  border: none;
   background-color: #19ce60;
   color: #fff;
-  margin-top: 48px;
-  margin-bottom: 56px;
-  padding: 16px;
+  padding: 1rem;
+}
+
+body .bar .tap {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid var(--secondary-dark-color);
+  border-bottom: 1px solid var(--secondary-dark-color);
+  padding: 1rem;
 }
