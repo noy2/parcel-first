@@ -5,6 +5,7 @@
   --main-grey-color: #8E8E8E;
   --light-grey-color: #dbdbdb;
   --main-black-color: #262626;
+  --main-blue-color: #0095f6;
   /* SIZE */
   --main-container-size: 935px;
   --aricle-container-size: 614px;
@@ -59,8 +60,24 @@
   padding-top: 12px;
 }
 
+.pb16 {
+  padding-bottom: 16px;
+}
+
 .mlm {
   margin-left: var(--margin-main-size);
+}
+
+.ml16 {
+  margin-left: 16px;
+}
+
+.mr16 {
+  margin-right: 16px;
+}
+
+.mt16 {
+  margin-top: 16px;
 }
 
 .mt24 {
@@ -69,6 +86,18 @@
 
 .mt36 {
   margin-top: 36px;
+}
+
+.mb16 {
+  margin-bottom: 16px;
+}
+
+.ml10 {
+  margin-left: 10px;
+}
+
+.mr10 {
+  margin-right: 10px;
 }
 
 .bg1 {
@@ -95,6 +124,10 @@
   font-weight: bold;
 }
 
+.cmg {
+  color: var(--main-grey-color);
+}
+
 .bd-mg1 {
   border: 1px solid var(--light-grey-color);
   border-radius: 4px;
@@ -102,6 +135,14 @@
 
 a {
   text-decoration: none;
+}
+
+a.a-bule:active, a.a-bule:visited, a.a-bule:link {
+  color: var(--main-blue-color);
+}
+
+a.a-grey:active, a.a-grey:visited, a.a-grey:link {
+  color:var(--main-grey-color);
 }
 
 a:active, a:visited, a:link {
@@ -183,4 +224,102 @@ main {
 .comment-container {
   display: flex;
   justify-content: space-between;
+}
+
+.add-comment {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--light-grey-color);
+}
+
+.add-comment > input {
+  display: flex;
+  flex: 1;
+  border: 0;
+}
+
+.add-comment > button {
+  background-color: var(--white-color);
+  border: 0;
+  color: var(--main-blue-color);
+}
+
+.recommand-friends {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.header-container-recommands {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-recommand {
+  display: flex;
+  
+}
+
+.card-friends {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.card-friends > button {
+  width: 134px;
+  background-color: var(--main-blue-color);
+  color: var(--white-color);
+  border: 0;
+  border-radius: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 20px;
+}
+
+.account {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.account-box {
+  display: flex;
+  align-items: center;
+}
+
+.recommand-foryou {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recommand-friends-foryou {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.rffy {
+  display: flex;
+  align-items: center;
+}
+
+.rffy > img {
+  max-width: 100%;
+  padding-right: 12px;
+}
+
+.recommand-friends-foryou > button {
+  background-color: var(--main-white-color);
+  border: 0;
+  color: #0095f6;
+  font-weight: bold;
 }
