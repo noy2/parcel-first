@@ -1,0 +1,59 @@
+:root {
+  /* COLOR */
+  --white-color: #fff;
+  --main-white-color: #fafafa;
+  --main-grey-color: #8E8E8E;
+  --light-grey-color: #dbdbdb;
+  --main-black-color: #262626;
+  /* SIZE */
+  --main-container-size: 935px;
+  --avata-small-size: 24px;  
+  --avata-middle-size: 36px;
+  --avata-large-size: 56px;
+
+  --padding-main-size: 16px;
+  /* FONT SIZE */
+}
+
+.avata-size-small {
+  width: var(--avata-small-size);
+  border-radius: 50%;
+}
+
+.avata-size-middle {
+  width: var(--avata-middle-size);
+  border-radius: 50%;
+}
+
+.avata-size-large {
+  width: 56px;
+  border-radius: 50%;
+}
+
+.plm {
+  padding-left: var(--padding-main-size);
+}
+
+a:active, a:visited, a:hover {
+  color:var(--main-black-color);
+}
+
+header {
+  background-color: var(--white-color);
+  border-bottom: 1px solid var(--light-grey-color);
+}
+
+body {
+  background-color: var(--main-white-color);
+  margin: auto;
+}
+
+.header-container {
+  width: var(--main-container-size);
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
