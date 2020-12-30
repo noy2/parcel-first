@@ -9,24 +9,26 @@
 </head>
 <body>
   <header>
-    <div class="header-container">
-      <img src="./resource/insta-logo.png" alt="">
-      <div class=""><input class="header-search p8 bg1" type="text" placeholder="검색"></div>
-      <div class="btnset">
-        <a href="" class="home plm"><span class="material-icons">home</span></a>
-        <a href="" class="dm plm"><span class="material-icons">send</span></a>
-        <a href="" class="gps plm"><span class="material-icons">explore</span></a>
-        <a href="" class="like plm"><span class="material-icons">favorite</span></a>
-        <a href="" class="profile plm">
-          <img src="./resource/profile-img.jpg" alt="" class="avatar-size-small">
-        </a>
+    <div class="c-header">
+      <div class="header-container">
+        <img src="./resource/insta-logo.png" alt="">
+        <div class=""><input class="header-search p8 bg1" type="text" placeholder="검색"></div>
+        <div class="btnset">
+          <a href="" class="home plm"><span class="material-icons">home</span></a>
+          <a href="" class="dm plm"><span class="material-icons">send</span></a>
+          <a href="" class="gps plm"><span class="material-icons">explore</span></a>
+          <a href="" class="like plm"><span class="material-icons">favorite</span></a>
+          <a href="" class="profile plm">
+            <img src="./resource/profile-img.jpg" alt="" class="avatar-size-small">
+          </a>
+        </div>
       </div>
     </div>
   </header>
   <main>
-    <div class="main-container">
+    <div class="main-container mt84">
       <div class="article-container">
-        <section class="story bg2 bd-mg1 p16 mt36">
+        <section class="story bg2 bd-mg1 p16">
           <div class="story-people">
             <img src="./resource/profile-img.jpg" alt="" class="avatar-size-large">
             <span class="fss">name</span>
@@ -48,7 +50,9 @@
             </div>
             <a href=""><span class="material-icons">more_horiz</span></a>
           </div>
-          <img src="./resource/article-img.jpg" alt="" class="article-img">
+          <div class="article-img-box">
+            <img src="./resource/article-img.jpg" alt="" class="article-img">
+          </div>
           <div class="container">
             <div class="article-btn plr16 pt12">
               <div class="">
@@ -84,7 +88,7 @@
         <section class="recommand-friends bd-mg1 bg2 mt24">
           <div class="header-container-recommands pb16">
             <span class="fwb fs14 cmg">회원님을 위한 추천</span>
-            <a href="" class="fwb fs14">모두 보기</a>
+            <a href="" class="a-bule fwb fs14">모두 보기</a>
           </div>
           <div class="header-recommand">
             <div class="card-friends bd-mg1 bg2 mr10">
@@ -115,7 +119,52 @@
             </div>
             <a href=""><span class="material-icons">more_horiz</span></a>
           </div>
-          <img src="./resource/article-img.jpg" alt="" class="article-img">
+          <div class="article-img-box">
+            <img src="./resource/2-1.png" alt="" class="article-img">
+          </div>
+          <div class="container">
+            <div class="article-btn plr16 pt12">
+              <div class="">
+                <a href=""><span class="material-icons">favorite</span></a>
+                <a href="" class="mlm"><span class="material-icons">chat_bubble</span></a>
+                <a href="" class="mlm"><span class="material-icons">send</span></a>
+              </div>
+              <a href=""><span class="material-icons">bookmark</span></a>
+            </div>
+            <a href="" class="fs14 plr16 fwb">좋아요 122개</a>
+            <div class="article-main fs14 plr16 pt8">
+              <a href="" class="writer fwb">happy.circuit</a>
+              <span class="main-text">i am happy?</span>
+            </div>
+            <div class="article-comment fs14 plr16 pt8">
+              <div class="comment-container">
+                <div class="person">
+                  <a href="" class="wirter fwb">mylife.is.fucked</a>
+                  <span class="main-text">no you aren't</span>
+                </div>
+                <a href=""><span class="material-icons">favorite</span></a>
+              </div>
+            </div>
+            <div class="time mb16">
+              <a href="" class="a-grey fs10 plr16">5 days ago</a>
+            </div>
+          </div>
+          <div class="add-comment">
+            <input type="text" placeholder="Add your comment" class="p16">
+            <button class="upload plr16">SEND</button>
+          </div>
+        </section>
+        <section class="article bg2 bd-mg1 mt24">
+          <div class="article-header p16">
+            <div class="article-profile">
+              <img src="./resource/profile-img.jpg" alt="" class="avatar-size-middle">
+              <a href="" class="fs14 mlm fwb">happy.circuit</a>
+            </div>
+            <a href=""><span class="material-icons">more_horiz</span></a>
+          </div>
+          <div class="article-img-box">
+            <img src="./resource/1-2.png" alt="" class="article-img">
+          </div>
           <div class="container">
             <div class="article-btn plr16 pt12">
               <div class="">
@@ -150,59 +199,61 @@
         </section>
       </div>
       <div class="side-container">
-        <div class="account mt36">
-          <div class="account-box mt16">
-            <img src="./resource/profile-img.jpg" alt="" class="avatar-size-large">
-            <div class="account-info ml16">
-              <a href="" class="fwb fs14">happy.circuit</a>
-              <span class="fs14 cmg">석민</span>
+        <div class="c-side-box">
+          <div class="account">
+            <div class="account-box mt16">
+              <img src="./resource/profile-img.jpg" alt="" class="avatar-size-large">
+              <div class="account-info ml16">
+                <a href="" class="fwb fs14">happy.circuit</a>
+                <span class="fs14 cmg">석민</span>
+              </div>
             </div>
+            <a href="" class="a-bule fwb fs14">전환</a>
           </div>
-          <a href="" class="a-bule fwb fs14">전환</a>
-        </div>
-        <div class="recommand-foryou mt16">
-          <span class="cmg fs14 fwb">회원님을 위한 추천</span>
-          <a href="" class="fwb fss">모두 보기</a>
-        </div>
-        <div class="recommand-friends-foryou">
-          <div class="rffy">
-            <img src="./resource/profile-img.jpg" alt="" class="avatar-size-middle ">
-            <div class="account-info">
-              <a href="" class="fwb fs14">tlqkf</a>
-              <span class="fss cmg">회원님을 위한 추천</span>
+          <div class="recommand-foryou mt16">
+            <span class="cmg fs14 fwb">회원님을 위한 추천</span>
+            <a href="" class="fwb fss">모두 보기</a>
+          </div>
+          <div class="recommand-friends-foryou">
+            <div class="rffy">
+              <img src="./resource/profile-img.jpg" alt="" class="avatar-size-middle ">
+              <div class="account-info">
+                <a href="" class="fwb fs14">tlqkf</a>
+                <span class="fss cmg">회원님을 위한 추천</span>
+              </div>
             </div>
+            <a href="" class="a-bule fs14 fwb">팔로우</a>
           </div>
-          <a href="" class="a-bule fs14 fwb">팔로우</a>
-        </div>
-        <div class="recommand-friends-foryou">
-          <div class="rffy">
-            <img src="./resource/profile-img.jpg" alt="" class="avatar-size-middle ">
-            <div class="account-info">
-              <a href="" class="fwb fs14">tlqkf</a>
-              <span class="fss cmg">회원님을 위한 추천</span>
+          <div class="recommand-friends-foryou">
+            <div class="rffy">
+              <img src="./resource/profile-img.jpg" alt="" class="avatar-size-middle ">
+              <div class="account-info">
+                <a href="" class="fwb fs14">tlqkf</a>
+                <span class="fss cmg">회원님을 위한 추천</span>
+              </div>
             </div>
+            <a href="" class="a-bule fs14 fwb">팔로우</a>
           </div>
-          <a href="" class="a-bule fs14 fwb">팔로우</a>
-        </div>
-        <div class="recommand-friends-foryou">
-          <div class="rffy">
-            <img src="./resource/profile-img.jpg" alt="" class="avatar-size-middle ">
-            <div class="account-info">
-              <a href="" class="fwb fs14">tlqkf</a>
-              <span class="fss cmg">회원님을 위한 추천</span>
+          <div class="recommand-friends-foryou">
+            <div class="rffy">
+              <img src="./resource/profile-img.jpg" alt="" class="avatar-size-middle ">
+              <div class="account-info">
+                <a href="" class="fwb fs14">tlqkf</a>
+                <span class="fss cmg">회원님을 위한 추천</span>
+              </div>
             </div>
+            <a href="" class="a-bule fs14 fwb">팔로우</a>
           </div>
-          <a href="" class="a-bule fs14 fwb">팔로우</a>
-        </div>
-        <div class="recommand-friends-foryou">
-          <div class="rffy">
-            <img src="./resource/profile-img.jpg" alt="" class="avatar-size-middle ">
-            <div class="account-info">
-              <a href="" class="fwb fs14">tlqkf</a>
-              <span class="fss cmg">회원님을 위한 추천</span>
+          <div class="recommand-friends-foryou">
+            <div class="rffy">
+              <img src="./resource/profile-img.jpg" alt="" class="avatar-size-middle ">
+              <div class="account-info">
+                <a href="" class="fwb fs14">tlqkf</a>
+                <span class="fss cmg">회원님을 위한 추천</span>
+              </div>
             </div>
+            <a href="" class="a-bule fs14 fwb">팔로우</a>
           </div>
-          <a href="" class="a-bule fs14 fwb">팔로우</a>
         </div>
       </div>
     </div>
